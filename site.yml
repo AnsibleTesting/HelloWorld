@@ -1,0 +1,9 @@
+---
+# This playbook deploys a simple standalone Tomcat 7 server. 
+
+- hosts: localhost 
+  remote_user: root
+
+  tasks:
+    - shell: echo "Hello World"
+    
