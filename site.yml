@@ -7,6 +7,4 @@
   tasks:
     - shell: echo "Hello World"
     
-- name:Install java
-  apt: name=nginx state=latest default_release=squeeze-backports update_cache=yes
     
