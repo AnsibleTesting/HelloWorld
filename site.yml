@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server. 
 
-- hosts: 10.0.2.15 
+- hosts: servers 
   remote_user: root
 
   tasks:
